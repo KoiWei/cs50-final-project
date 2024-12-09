@@ -5,11 +5,14 @@ Welcome to my personal portfolio! This repository showcases a dynamic and aesthe
 
 ## 🛠 Built With
 
-- ![Next.js](https://nextjs.org/) - Server-rendered React framework
-- ![React](https://reactjs.org/) - JavaScript library for building user interfaces
-- ![TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
-- ![Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- ![Figma](https://www.figma.com/) - Collaborative interface design tool
+- [Next.js](https://nextjs.org/) - Server-rendered React framework
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Figma](https://www.figma.com/) - Collaborative interface design tool
+
+## 🎥 Demo Video
+[Youtube](https://www.youtube.com/watch?v=Uh60sntYOzw)
 
 
 ## 💻 Getting Started
@@ -60,13 +63,27 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## 📂 Folder Structure
 
 ```plaintext
-src/
-├── components/       # Reusable UI components
-├── pages/            # Application pages
-├── styles/           # Global and component-specific styles
-├── public/           # Static assets
-├── utils/            # Utility functions
-├── hooks/            # Custom React hooks
+cs50-final-project/
+├── .next/            # Next.js build output (auto-generated, should be ignored in Git)
+├── node_modules/     # Node.js dependencies (auto-generated, should be ignored in Git)
+├── public/           # Static assets like images, fonts, etc.
+├── src/              # Source files for the application
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Application pages (automatically routed by Next.js)
+│   ├── styles/       # Global and component-specific styles (e.g., CSS or Tailwind files)
+│   ├── utils/        # Utility functions (e.g., helper functions or constants)
+│   ├── hooks/        # Custom React hooks
+│   └── sections/     # Sections for page layouts (optional, based on your project structure)
+├── .gitignore        # Specifies intentionally untracked files to ignore
+├── DESIGN.md         # Project design documentation (if needed)
+├── next-env.d.ts     # TypeScript environment declarations (auto-generated)
+├── next.config.mjs   # Next.js configuration file
+├── package.json      # Node.js dependencies and scripts
+├── package-lock.json # Lockfile for Node.js dependencies
+├── postcss.config.mjs # PostCSS configuration
+├── README.md         # Project documentation
+├── tailwind.config.ts # Tailwind CSS configuration (if using Tailwind)
+└── tsconfig.json     # TypeScript configuration
 ```
 
 ## ✨ Features
@@ -105,12 +122,8 @@ Contributions are welcome! Feel free to:
 
 ## 📧 Contact
 
-Jinlin Wei  [GitHub](https://github.com/KoiWei)  [Email](mailto:weijinlinkoi@gmail.com)
-Weihan Zheng [Email](mailto:weihan_zheng@brown.edu)
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- Jinlin Wei  [GitHub](https://github.com/KoiWei)  [Email](mailto:weijinlinkoi@gmail.com)
+- Weihan Zheng [Email](mailto:weihan_zheng@brown.edu)
 
 ---
 
