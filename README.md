@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your system:
 
 2. Navigate to the project directory:
    ```bash
-   cd your-project
+   cd cs50-final-project
    ```
 
 3. Install dependencies:
