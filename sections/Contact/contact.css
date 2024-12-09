@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    color: #fff; /* Default text color */
+    background-color: #b5acac; /* Background color for the body */
+}
+
+.text-white {
+    color: #fff !important; /* Ensures text is white regardless of specificity */
+}
+
+.text-muted {
+    color: #d1c2c2 !important; /* Muted text color for subtle emphasis */
+}
+
+a {
+    color: #f0ad4e; /* Default link color */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover,
+a:focus {
+    color: #ec971f; /* Highlight link color on hover or focus */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Section Styles */
+.content-section {
+    padding: 80px 0; /* Vertical padding for sections */
+    background-color: #b5acac; /* Section background color */
+    background-size: cover; /* Ensure the image covers the section */
+    background-position: center; /* Center the background image */
+    text-align: center; /* Center text in the section */
+}
+
+.section-heading {
+    font-size: 48px; /* Heading size */
+    margin: 0 0 20px; /* Top and bottom margin */
+    font-family: poppins; /* Font for headings */
+    font-weight: 700; /* Bold font weight */
+    color: #fff; /* White color for headings */
+}
+
+.section-subheading {
+    font-size: 18px; /* Subheading size */
+    font-style: italic; /* Italicize subheading */
+    font-weight: 400; /* Regular weight */
+    color: #140d0d; /* Darker color for subheading */
+    margin-bottom: 20px; /* Bottom spacing */
+}
+
+/* Contact Information Styles */
+.contact-info {
+    font-size: 18px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0; /* Space between info items */
+}
+
+.contact-info a {
+    color: #2b2215; /* Link color for contact information */
+}
+
+.contact-info a:hover {
+    color: #ec971f; /* Hover color for contact information links */
+}
+
+/* Form Styles */
+form {
+    margin-top: 1px; /* Minimal top margin */
+    max-width: 700px; /* Maximum width for the form */
+    margin-left: 160px; /* Adjust alignment */
+    margin-right: auto; /* Center the form horizontally */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+.form-control {
+    border: 1px solid #dcccbc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #d7c3b1; /* Field background color */
+    color: #fff; /* Text color */
+    padding: 40px; /* Increase padding for larger fields */
+    font-size: 18px; /* Larger font size */
+    height: auto; /* Adjust height based on padding */
+}
+
+.form-control:focus {
+    border-color: #5d67cc; /* Highlight border on focus */
+    box-shadow: none; /* Remove default shadow */
+    outline: none; /* Remove focus outline */
+}
+
+textarea.form-control {
+    width: 550px; /* Specific width for textarea */
+    height: 366px; /* Specific height for textarea */
+}
+
+::placeholder {
+    color: #050404; /* Placeholder text color */
+    font-weight: 400; /* Regular font weight */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #f0ad4e; /* Primary button background */
+    border-color: #f0ad4e; /* Border color */
+    color: #fff; /* Text color */
+    text-transform: uppercase; /* Uppercase text */
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700; /* Bold text */
+    font-size: 18px; /* Larger font size */
+    padding: 30px 30px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #ec971f; /* Hover background color */
+    border-color: #ec971f; /* Hover border color */
+}
+
+/* Custom Button Styles */
+.send-message-button {
+    background-color: #54443c; /* Custom button background */
+    color: white; /* Ensure readability */
+    padding: 12px 30px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.send-message-button:hover {
+    background-color: #3e352f; /* Change background on hover */
+}
+
+/* Responsive Grid */
+.row {
+    display: flex; /* Use flexbox for rows */
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Space between columns */
+    justify-content: center; /* Center content */
+}
+
+.col-md-6 {
+    flex: 0 0 48%; /* Define width */
+    max-width: 48%; /* Restrict max width */
+}
+
+.col-lg-12 {
+    flex: 0 0 100%; /* Full-width column */
+    max-width: 100%;
+}
+
+/* Success Message */
+#success {
+    color: #5cb85c; /* Green color for success messages */
+    margin-top: 15px; /* Top spacing */
+}
+
+#contact {
+    background-color: #f3f3e3; /* Contact section background */
+}
+
+.black-heading {
+    color: black; /* Black heading color */
+}

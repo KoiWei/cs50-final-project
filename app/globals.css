@@ -1,0 +1,84 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* Importing Tailwind CSS core modules for base styles, components, and utilities. */
+
+* {
+  @apply text-lightText transition-colors duration-200 dark:text-darkText;
+  /* Global styles: default text color with smooth theme transition. */
+}
+
+h1,
+h2,
+h3 {
+  @apply font-gilroy;
+  /* Apply custom font for all heading levels. */
+}
+
+h1 {
+  @apply text-[42px] md:text-[56px];
+  /* Responsive font size for main headers. */
+}
+
+body {
+  @apply container flex flex-col bg-lightBackground font-openSans dark:bg-darkBackground;
+  /* Container layout with theme-based background and font styles. */
+}
+
+.notification-mark {
+  position: relative;
+  background: #00bb61;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  /* Circular notification indicator with a green background. */
+}
+
+.notification-mark span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  opacity: 0.6;
+  animation: pulseAnimate 3s ease-out infinite;
+  /* Pulsing effect for the notification mark. */
+}
+
+@keyframes pulseAnimate {
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+  /* Keyframe for scaling and fading pulse animation. */
+}
+
+section {
+  @apply mb-24 md:mb-32;
+  /* Bottom margin for sections, larger on medium screens and above. */
+}
+
+button {
+  @apply rounded-[5px] px-14 py-4 font-bold shadow-lightButton transition duration-300 dark:shadow-darkButton;
+  /* General button styles: padding, rounded corners, shadow, and smooth transitions. */
+}
+
+button.primary {
+  @apply bg-lightPrimary-700 text-lightBackground dark:bg-darkPrimary-900 dark:text-darkBackground;
+  /* Primary button styles with light and dark theme colors. */
+}
+
+button.primary:hover {
+  @apply bg-lightPrimary-900 shadow-hoverLightButton dark:bg-darkPrimary-500 dark:shadow-hoverDarkButton;
+  /* Hover effects for primary buttons. */
+}
+
+button.secondary {
+  @apply bg-lightSecondary-700 text-lightText dark:bg-darkSecondary-900 dark:text-darkText;
+  /* Secondary button styles with light and dark theme colors. */
+}
+
+button.secondary:hover {
+  @apply bg-lightSecondary-900 shadow-hoverLightButton dark:bg-darkSecondary-700 dark:shadow-hoverDarkButton;
+  /* Hover effects for secondary buttons. */
+}

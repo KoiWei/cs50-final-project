@@ -1,0 +1,61 @@
+/* Global Styling */
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed; /* Keeps the navbar fixed at the top */
+    top: 0;
+    left: 0; /* Ensures the navbar starts from the left edge */
+    width: 100%; /* Spans the full width of the viewport */
+    background-color: #84645c; /* Background color for the navbar */
+    color: white; /* Text color for navbar elements */
+    padding: 10px 0; /* Adds vertical padding */
+    margin: 0; /* Removes default margin */
+    z-index: 1000; /* Ensures the navbar appears above other content */
+    font-family: 'Poppins', sans-serif; /* Sets the font to Poppins */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Distributes items evenly with space between */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+.navbar-left {
+    margin-left: 50px; /* Adds spacing on the left side for the logo or branding */
+}
+
+.navbar-right {
+    list-style-type: none; /* Removes bullet points for the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Displays items in a row */
+    justify-content: flex-end; /* Aligns items to the right */
+    padding-right: 50px; /* Adds spacing on the right side */
+}
+
+/* Navbar Item Styles */
+.navbar-left li,
+.navbar-right li {
+    margin: 0 15px; /* Adds spacing between navbar items */
+}
+
+.navbar a {
+    color: white; /* Text color for links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 18px; /* Sets font size */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Section Styles */
+section {
+    scroll-margin-top: 80px; /* Adjusts scroll position to avoid overlapping with the fixed navbar */
+}
+
+/* Home Tab Styles */
+.home-tab {
+    font-size: 90px; /* Sets a large font size for the main heading */
+    font-weight: bold; /* Makes the text bold */
+}
