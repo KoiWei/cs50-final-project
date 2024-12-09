@@ -1,4 +1,4 @@
-# 🌟 Project Name
+# 🌟 My Portfolio
 
 ## 🚀 Overview
 Welcome to my personal portfolio! This repository showcases a dynamic and aesthetically pleasing web application that highlights my skills, projects, and experiences. Designed with a focus on innovation and functionality, this portfolio serves as a comprehensive representation of my professional and creative journey. Below, you'll find details about the tech stack, project features, and how to explore the app effectively.
