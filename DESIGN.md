@@ -18,13 +18,27 @@ The project is built using the following stack:
 ### Folder Structure
 
 ```plaintext
-src/
-├── components/       # Reusable UI components
-├── pages/            # Application routes
-├── styles/           # Global and component-specific styles
-├── public/           # Static assets
-├── utils/            # Utility functions
-├── hooks/            # Custom React hooks
+cs50-final-project/
+├── .next/            # Next.js build output (auto-generated, should be ignored in Git)
+├── node_modules/     # Node.js dependencies (auto-generated, should be ignored in Git)
+├── public/           # Static assets like images, fonts, etc.
+├── src/              # Source files for the application
+│   ├── components/   # Reusable UI components
+│   ├── pages/        # Application pages (automatically routed by Next.js)
+│   ├── styles/       # Global and component-specific styles (e.g., CSS or Tailwind files)
+│   ├── utils/        # Utility functions (e.g., helper functions or constants)
+│   ├── hooks/        # Custom React hooks
+│   └── sections/     # Sections for page layouts (optional, based on your project structure)
+├── .gitignore        # Specifies intentionally untracked files to ignore
+├── DESIGN.md         # Project design documentation (if needed)
+├── next-env.d.ts     # TypeScript environment declarations (auto-generated)
+├── next.config.mjs   # Next.js configuration file
+├── package.json      # Node.js dependencies and scripts
+├── package-lock.json # Lockfile for Node.js dependencies
+├── postcss.config.mjs # PostCSS configuration
+├── README.md         # Project documentation
+├── tailwind.config.ts # Tailwind CSS configuration (if using Tailwind)
+└── tsconfig.json     # TypeScript configuration
 ```
 
 ---
