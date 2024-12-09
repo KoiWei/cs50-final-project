@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KoiWei/your-project.git
+   git clone [https://github.com/KoiWei/cs50-final-project.git]
    ```
 
 2. Navigate to the project directory:
@@ -105,11 +105,8 @@ Contributions are welcome! Feel free to:
 
 ## 📧 Contact
 
-Jinlin Wei  
-- [GitHub](https://github.com/KoiWei)  
-- [Email](mailto:weijinlinkoi@gmail.com)
-Weihan Zheng
-- [Email](mailto:weihan_zheng@brown.edu)
+Jinlin Wei  [GitHub](https://github.com/KoiWei)  [Email](mailto:weijinlinkoi@gmail.com)
+Weihan Zheng [Email](mailto:weihan_zheng@brown.edu)
 
 ## 📜 License
 
